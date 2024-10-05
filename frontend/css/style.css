@@ -1,0 +1,164 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a,btn{
+    transition: all 300ms ease;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.nav-links{
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+    color: rgb(228, 166, 51);
+}
+
+a:hover{
+    color: #d3e016;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+}
+
+
+/*Profile*/
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.profile{
+    border-radius: 50%;
+}
+.section-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.5vh;
+}
+
+.title{
+    font-family: 'Poppins',sans-serif;
+    color: rgb(228, 166, 51);
+}
+
+
+.section-text1,.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.para{
+    text-align: center;
+    color: #f1f1e6;
+}
+
+.social-links{
+    display: flex;
+    height: 10vh;
+    list-style: none;
+}
+
+.icon{
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* About Section*/
+
+#about{
+    margin: 14vh;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para1{
+    padding:2.5rem
+}
+
+.about-header,.resume-header{
+    color: rgb(228, 166, 51);
+}
+
+.about-para{
+    color: #f1f1e6;
+}
+
+
+/*Resume Section*/
+
+#resume{
+    margin: 5vh;
+}
+
+.resume-header{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.resume-card{
+    width: 325px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.resume-content{
+    padding: 5vh;
+    color: #f1f1e6;
+}
+
+.resume-content h3{
+    text-align: center;
+}
+.resume-content p{
+    text-align: center;
+}
